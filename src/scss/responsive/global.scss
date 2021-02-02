@@ -1,0 +1,32 @@
+@media(max-width:1200px){
+    .lander-column-tablet {
+        flex-basis: 100% !important;
+    }
+
+    .page-id-128689 .wp-block-column:nth-child(2n) {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:767px) {
+    .lander-container {
+        max-width: 90%;
+    }
+
+    .lander-mobile-container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .page-id-128689 .wp-block-cover .wp-block-cover__inner-container {
+        width: 90%;
+    }
+
+    .page-id-128689 .navbar-toggler-container {
+        display: none;
+    }
+
+    .page-id-128689 button.navbar-toggler {
+        display: none !important;
+    }
+}

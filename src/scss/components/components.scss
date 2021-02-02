@@ -1,0 +1,24 @@
+.lander-container {
+    box-sizing: border-box;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.lander-divider {
+    background: linear-gradient(90.01deg, #00A6DE -0.96%, #8DC63F 99.44%), #C4C4C4;
+    box-sizing: border-box;
+    height: 4px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.lander-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lander-form {
+    background-color: #eee;
+    padding: 30px;
+}
